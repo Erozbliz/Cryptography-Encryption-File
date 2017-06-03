@@ -5,7 +5,7 @@ Design and evaluate a secure data interchange system <br/>
 -The password is "bonjour123456"
 
 # Explanation
-## Cryptage AES, Rijndael (Symétrique)
+## Cryptage AES, Rijndael (Symmetric)
 <br/> Peut utiliser n'importe quelle taille de donnees et taille de mot de passe grace au padding
 <br/> On manipule en octet pour garantir l'integrite des donnees
 <br/> Taille(s) du bloc       : 128 bits (16 octets)
@@ -13,17 +13,15 @@ Design and evaluate a secure data interchange system <br/>
 <br/> Nombre de tours         : 10,12,14 selon la taille de la clef
 <br/> Utilisation de : CBC Cipher Block Chaining. Les blocs sont liees entre eux.
 <br/> Utilisation de : ECB Les blocs sont chiffrés indépendamment bloc par bloc
-<br/> Liste des blocks
-<br/> https://www.dlitz.net/software/pycrypto/api/current/Crypto.Cipher.blockalgo-module.html#MODE_OPENPGP
 
-## Triple DES (Data Encryption Standard) (Symétrique)
+## Triple DES (Data Encryption Standard) (Symmetric)
 <br/>  Enchaine 3 applications successives de l'algorithme DES sur le meme bloc de donnees de 64 bits, avec 2 ou 3 clef DES differentes.
 <br/>  Le TDES est cryptographiquement securise, il n'est ni aussi sur ni aussi rapide que AES.
 <br/>  Taille(s) du bloc       : 64 bits (8 octets)
 <br/>  Longueur(s) de la cle   : 168(21)ou 112(14) bits
 <br/>  Nombre de tours 3x16 tours du DES
 <br/>
-## Data Encryption Standard (DES) (Symétrique)
+## Data Encryption Standard (DES) (Symmetric)
 <br/>  DES est cryptographiquement securise, mais sa longueur cle est trop courte
 <br/>  DES est vulnerable au bruteforce
 <br/>  Taille(s) du bloc       : 64 bits (8)
@@ -49,4 +47,4 @@ Design and evaluate a secure data interchange system <br/>
 -Keywords : Python3 , AES, Block CBC, Block ECB, Encrypt, Decrypt, chilkat, RSA, DES, 3DES, MD5, SHA1, SHA2, SHA3
 
 ## Capture 
-![alt tag](https://github.com/Erozbliz/Cryptography-Encryption-File/CAPTURE1.jpg?raw=true)
+![alt tag](https://github.com/Erozbliz/Cryptography-Encryption-File/blob/master/CAPTURE1.JPG?raw=true)
