@@ -32,19 +32,19 @@ Design and evaluate a secure data interchange system <br/>
 - MD5(checksum), SHA1, SHA2_512, SHA3_512
 
 ## Benchmark :
--Encyption symetrique
--Fonction de hashage
+- Encyption symetrique
+- Fonction de hashage
 
 
 ## REQUIRED
--python 3
--PyCrypto
--The files (videos, documents) in the folder "file_a_encrypter"
+- python 3
+- PyCrypto
+- The files (videos, documents) in the folder "file_a_encrypter"
 
 ## OTHER
--anaconda
--pip install cryptography
--Keywords : Python3 , AES, Block CBC, Block ECB, Encrypt, Decrypt, chilkat, RSA, DES, 3DES, MD5, SHA1, SHA2, SHA3
+- anaconda
+- pip install cryptography
+- Keywords : Python3 , AES, Block CBC, Block ECB, Encrypt, Decrypt, chilkat, RSA, DES, 3DES, MD5, SHA1, SHA2, SHA3
 
 ## Capture 
 ![alt tag](https://github.com/Erozbliz/Cryptography-Encryption-File/blob/master/CAPTURE1.JPG?raw=true)
